@@ -1,0 +1,68 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.product-container {
+    display: flex;
+    gap: 20px; /* Adjust the gap between products */
+}
+
+.product {
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text */
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+.product:hover {
+    transform: scale(1.1); /* Increase scale on hover */
+}
+
+
+
+/* Styles for images */
+/* Styles for images */
+.product img {
+    width: 100%; /* Adjust image size to fill the container */
+    height: auto;
+    max-width: 100%; /* Set maximum width to 100% */
+}
+
+h2 {
+    color: #333;
+    font-size: 24px; /* Decrease font size */
+    margin-bottom: 5px;
+}
+
+p {
+    color: #666;
+    font-size: 16px; /* Decrease font size */
+    margin-bottom: 10px;
+}
+
+.next-page-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Additional styles for link */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
